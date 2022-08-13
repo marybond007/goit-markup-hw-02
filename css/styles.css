@@ -245,13 +245,13 @@ body {
 .portfolio .button {
     font-weight: 500;
     line-height: 1.62;
+    letter-spacing: 0.003em;
     color: var(--primary-text-color);
-    background-color: var(--other-bcg-color);
+    background-color: var(--secondary-bcg-color);
 }
 
 .portfolio .button:hover,
 .portfolio .button:focus {
-    cursor: pointer;
     background-color: var(--accent-text-color);
     color: var(--accent-secondary-text-color);
 }
